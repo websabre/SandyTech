@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i>Tailwind</i> CSS.', '&amp; React', 'Typescript'],
+      strings: ['<i>ASP NET Core</i> CSS.', '&amp; C#', 'React'],
       typeSpeed: 50,
     });
 
@@ -39,7 +39,7 @@ export default function Home() {
                 <h2 className="tracking-widest text-xs title-font font-medium  mb-1">WEB DEVELOPMENT</h2>
                 <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 dark:text-white mb-3">Full-Stack Solutions</h1>
                 <p className="leading-relaxed mb-3 text-gray-700 dark:text-gray-50  ">
-                  Building robust, scalable, and responsive web applications using modern tech stacks like React, Node.js, and more.
+                  Building robust, scalable, and responsive web applications using modern tech stacks like ASP.NeT Core,React, Node.js, and more.
                 </p>
                 <a className=" inline-flex items-center hover:text-indigo-700">Learn More
                   <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
