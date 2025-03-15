@@ -55,7 +55,7 @@ const NavBar = () => {
             />
             <div className='text-lg font-bold md:text-xl'>
                 <Link href={"/"}>
-                    ProgrammingWithHarry
+                    ProgrammingWithSandeep
                 </Link>
             </div>
             <ul className='hidden md:flex w-full justify-end items-center space-x-4 '>
@@ -63,10 +63,10 @@ const NavBar = () => {
                 <li><Link href={"/about"}>About</Link></li>
                 <li><Link href={"/blog"}>Blog</Link></li>
                 <li><Link href={"/contact"}>Contact</Link></li>
-                {/* <li className="buttons px-4 space-x-2">
-                    <Link href={"/login"} className={buttonVariants({ variant: "outline" })}>Login</Link>
-                    <Link href={"/login"} className={buttonVariants({ variant: "outline" })}>Sign Up</Link>
-                </li> */}
+                <li className="buttons px-4 space-x-2">
+                    {/* <Link href={"/login"} className={buttonVariants({ variant: "outline" })}>Login</Link>
+                    <Link href={"/login"} className={buttonVariants({ variant: "outline" })}>Sign Up</Link> */}
+                </li>
 
             </ul>
             <ModeToggle />
