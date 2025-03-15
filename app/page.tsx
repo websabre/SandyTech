@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i>ASP NET Core</i> CSS.', '&amp; C#', 'React'],
+      strings: ['<i>ASP NET Core</i>', '&amp; C#', 'React'],
       typeSpeed: 50,
     });
 
